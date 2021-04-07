@@ -1,0 +1,98 @@
+{
+  "name": "totemfi",
+  "version": "1.0.0",
+  "description": "TotemFi smart contracts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "3.4.1-solc-0.7"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@tenderly/hardhat-tenderly": "^1.0.7",
+    "@typechain/ethers-v5": "^6.0.1",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "chai": "^4.3.0",
+    "copyfiles": "^2.4.1",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.31",
+    "hardhat": "^2.0.11",
+    "hardhat-deploy": "0.7.0-beta.48",
+    "hardhat-gas-reporter": "^1.0.4",
+    "hardhat-typechain": "^0.3.5",
+    "mocha": "^8.3.0",
+    "npm-run-all": "^4.1.5",
+    "npm-scripts-info": "^0.3.9",
+    "rimraf": "^3.0.2",
+    "solidity-coverage": "^0.7.15",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^9.1.1",
+    "typechain": "^4.0.2",
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "build": "hardhat compile && tsc",
+    "clean": "rimraf artifacts && rimraf cache && rimraf deployments/localhost && rimraf src/types/*",
+    "copy-dts": "copyfiles -u 1 \"src/**/*.d.ts\" dist/src",
+    "deploy": "run-s deploy:development",
+    "deploy:testnet": "run-s deploy:rinkeby deploy:kovan deploy:goerli deploy:matic_testnet deploy:bsc_testnet",
+    "deploy:development": "hardhat deploy --network localhost",
+    "deploy:ropsten": "hardhat deploy --network ropsten --export export/abi/ropsten.json",
+    "deploy:rinkeby": "hardhat deploy --network rinkeby --export export/abi/rinkeby.json",
+    "deploy:kovan": "hardhat deploy --network kovan --export export/abi/kovan.json",
+    "deploy:goerli": "hardhat deploy --network goerli --export export/abi/goerli.json",
+    "deploy:mainnet": "hardhat deploy --network mainnet --export export/abi/mainnet.json",
+    "deploy:matic_testnet": "hardhat deploy --network matic_testnet --export export/abi/matic_testnet.json",
+    "deploy:bsc_testnet": "hardhat deploy --network bsc_testnet --export export/abi/bsc_testnet.json",
+    "export": "hardhat export-artifacts export/artifacts",
+    "info": "npm-scripts-info",
+    "prepack": "run-s clean deploy:testnet",
+    "prepare": "run-s build copy-dts export",
+    "pretest": "run-s prepare",
+    "test": "hardhat test",
+    "start": "hardhat node"
+  },
+  "scripts-info": {
+    "build": "Build contracts and typescript code",
+    "copy-dts": "Copy TypeChain type definition files to typescript output dir",
+    "clean": "Clean build artifacts, including contracts deployment information",
+    "deploy": "Deploy contracts to local ganache. Requires ganache running on localhost:8545",
+    "deploy:testnet": "Deploy contracts to all supported testnets. Requires two environment variables: PROJECT_ID and MNEMONIC.",
+    "deploy:development": "Deploy contracts to local ganache. Requires ganache running on localhost:8545",
+    "deploy:rinkeby": "Deploy contracts to rinkeby. Requires two environment variables: PROJECT_ID and MNEMONIC.",
+    "deploy:kovan": "Deploy contracts to kovan. Requires two environment variables: PROJECT_ID and MNEMONIC.",
+    "deploy:goerli": "Deploy contracts to goerli. Requires two environment variables: PROJECT_ID and MNEMONIC.",
+    "deploy:mainnet": "Deploy contracts to mainnet.",
+    "deploy:matic_testnet": "Deploy contracts to matic_testnet.",
+    "deploy:bsc_testnet": "Deploy contracts to bsc_testnet.",
+    "export": "Export artifacts in a simpler format",
+    "info": "Displays information about the scripts.",
+    "test": "Run unit tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totemfi/totem-v2.git"
+  },
+  "files": [
+    "contracts",
+    "deployments/*/*.json",
+    "deployments/*/.chainid",
+    "dist/src/types",
+    "export"
+  ],
+  "main": "./dist/src/types/index.js",
+  "types": "./dist/src/types/index.d.ts",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/totemfi/totem-v2/issues"
+  },
+  "homepage": "https://totemfi.com/",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}

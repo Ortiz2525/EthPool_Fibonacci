@@ -1,0 +1,257 @@
+{
+  "address": "0xb12C7742E982aEFdD2Bf1d21441a0E7068Ee0646",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "totalAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amountWithdrawn",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "depositors",
+      "outputs": [
+        {
+          "internalType": "address payable",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "n",
+          "type": "uint256"
+        }
+      ],
+      "name": "fibonacci",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdrawAll",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "depositor",
+          "type": "address"
+        }
+      ],
+      "name": "withdrawable",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "depositor",
+          "type": "address"
+        }
+      ],
+      "name": "withdrawn",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xce83c312c367a8abf77499f61cacf66623ee8b2965de2752109a5efc4d36d2e6",
+  "receipt": {
+    "to": null,
+    "from": "0xf7bC1F442d436AFe5754b565bff030c281c9Aa90",
+    "contractAddress": "0xb12C7742E982aEFdD2Bf1d21441a0E7068Ee0646",
+    "transactionIndex": 1,
+    "gasUsed": "489147",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x0072f8464857dc0c11bd4384a4bccca095972271e2817eb7b331f69fbc6a6e62",
+    "transactionHash": "0xce83c312c367a8abf77499f61cacf66623ee8b2965de2752109a5efc4d36d2e6",
+    "logs": [],
+    "blockNumber": 4578915,
+    "cumulativeGasUsed": "540740",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "b763a036f9e125502607bcc15de77d35",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balances\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"totalAmount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountWithdrawn\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"depositors\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"n\",\"type\":\"uint256\"}],\"name\":\"fibonacci\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdrawAll\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"depositor\",\"type\":\"address\"}],\"name\":\"withdrawable\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"depositor\",\"type\":\"address\"}],\"name\":\"withdrawn\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/EthPool_Fibonacci.sol\":\"EthPool_Fibonacci\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/math/SafeMath.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.7.0;\\n\\n/**\\n * @dev Wrappers over Solidity's arithmetic operations with added overflow\\n * checks.\\n *\\n * Arithmetic operations in Solidity wrap on overflow. This can easily result\\n * in bugs, because programmers usually assume that an overflow raises an\\n * error, which is the standard behavior in high level programming languages.\\n * `SafeMath` restores this intuition by reverting the transaction when an\\n * operation overflows.\\n *\\n * Using this library instead of the unchecked operations eliminates an entire\\n * class of bugs, so it's recommended to use it always.\\n */\\nlibrary SafeMath {\\n    /**\\n     * @dev Returns the addition of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryAdd(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        uint256 c = a + b;\\n        if (c < a) return (false, 0);\\n        return (true, c);\\n    }\\n\\n    /**\\n     * @dev Returns the substraction of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function trySub(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        if (b > a) return (false, 0);\\n        return (true, a - b);\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, with an overflow flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMul(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        // Gas optimization: this is cheaper than requiring 'a' not being zero, but the\\n        // benefit is lost if 'b' is also tested.\\n        // See: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/522\\n        if (a == 0) return (true, 0);\\n        uint256 c = a * b;\\n        if (c / a != b) return (false, 0);\\n        return (true, c);\\n    }\\n\\n    /**\\n     * @dev Returns the division of two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryDiv(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        if (b == 0) return (false, 0);\\n        return (true, a / b);\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers, with a division by zero flag.\\n     *\\n     * _Available since v3.4._\\n     */\\n    function tryMod(uint256 a, uint256 b) internal pure returns (bool, uint256) {\\n        if (b == 0) return (false, 0);\\n        return (true, a % b);\\n    }\\n\\n    /**\\n     * @dev Returns the addition of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `+` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Addition cannot overflow.\\n     */\\n    function add(uint256 a, uint256 b) internal pure returns (uint256) {\\n        uint256 c = a + b;\\n        require(c >= a, \\\"SafeMath: addition overflow\\\");\\n        return c;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting on\\n     * overflow (when the result is negative).\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(uint256 a, uint256 b) internal pure returns (uint256) {\\n        require(b <= a, \\\"SafeMath: subtraction overflow\\\");\\n        return a - b;\\n    }\\n\\n    /**\\n     * @dev Returns the multiplication of two unsigned integers, reverting on\\n     * overflow.\\n     *\\n     * Counterpart to Solidity's `*` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Multiplication cannot overflow.\\n     */\\n    function mul(uint256 a, uint256 b) internal pure returns (uint256) {\\n        if (a == 0) return 0;\\n        uint256 c = a * b;\\n        require(c / a == b, \\\"SafeMath: multiplication overflow\\\");\\n        return c;\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * Counterpart to Solidity's `/` operator. Note: this function uses a\\n     * `revert` opcode (which leaves remaining gas untouched) while Solidity\\n     * uses an invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(uint256 a, uint256 b) internal pure returns (uint256) {\\n        require(b > 0, \\\"SafeMath: division by zero\\\");\\n        return a / b;\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting when dividing by zero.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(uint256 a, uint256 b) internal pure returns (uint256) {\\n        require(b > 0, \\\"SafeMath: modulo by zero\\\");\\n        return a % b;\\n    }\\n\\n    /**\\n     * @dev Returns the subtraction of two unsigned integers, reverting with custom message on\\n     * overflow (when the result is negative).\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {trySub}.\\n     *\\n     * Counterpart to Solidity's `-` operator.\\n     *\\n     * Requirements:\\n     *\\n     * - Subtraction cannot overflow.\\n     */\\n    function sub(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {\\n        require(b <= a, errorMessage);\\n        return a - b;\\n    }\\n\\n    /**\\n     * @dev Returns the integer division of two unsigned integers, reverting with custom message on\\n     * division by zero. The result is rounded towards zero.\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {tryDiv}.\\n     *\\n     * Counterpart to Solidity's `/` operator. Note: this function uses a\\n     * `revert` opcode (which leaves remaining gas untouched) while Solidity\\n     * uses an invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {\\n        require(b > 0, errorMessage);\\n        return a / b;\\n    }\\n\\n    /**\\n     * @dev Returns the remainder of dividing two unsigned integers. (unsigned integer modulo),\\n     * reverting with custom message when dividing by zero.\\n     *\\n     * CAUTION: This function is deprecated because it requires allocating memory for the error\\n     * message unnecessarily. For custom revert reasons use {tryMod}.\\n     *\\n     * Counterpart to Solidity's `%` operator. This function uses a `revert`\\n     * opcode (which leaves remaining gas untouched) while Solidity uses an\\n     * invalid opcode to revert (consuming all remaining gas).\\n     *\\n     * Requirements:\\n     *\\n     * - The divisor cannot be zero.\\n     */\\n    function mod(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {\\n        require(b > 0, errorMessage);\\n        return a % b;\\n    }\\n}\\n\",\"keccak256\":\"0xe22a1fc7400ae196eba2ad1562d0386462b00a6363b742d55a2fd2021a58586f\",\"license\":\"MIT\"},\"contracts/EthPool_Fibonacci.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity 0.7.6;\\n\\nimport \\\"@openzeppelin/contracts/math/SafeMath.sol\\\";\\n\\ncontract EthPool_Fibonacci {\\n    using SafeMath for uint256;\\n\\n    struct UserBalance {\\n        uint256 totalAmount; // Total amount of deposited tokens.\\n        uint256 amountWithdrawn; // The amount that has been withdrawn.\\n    }\\n\\n    mapping(address => UserBalance) public balances;\\n    address payable[] public depositors;\\n    uint256 public totalBalance;\\n\\n    function deposit() external payable {\\n        require(msg.value > 0, \\\"amount shouldnt be zero\\\");\\n\\n        if (balances[msg.sender].totalAmount > 0) {\\n            balances[msg.sender].totalAmount = balances[msg.sender]\\n                .totalAmount\\n                .add(msg.value);\\n        } else {\\n            require(\\n                depositors.length < 200,\\n                \\\"exceeds the maximum number of different accounts\\\"\\n            );\\n            balances[msg.sender] = UserBalance({\\n                totalAmount: msg.value,\\n                amountWithdrawn: 0\\n            });\\n            depositors.push(msg.sender);\\n        }\\n        totalBalance = totalBalance.add(msg.value);\\n    }\\n\\n    function _withdraw(address payable depositor, uint256 amount) internal {\\n        require(amount != 0, \\\"amount shouldnt be zero\\\");\\n        require(\\n            withdrawable(depositor) >= amount,\\n            \\\"the amount exceeds the available balance\\\"\\n        );\\n\\n        depositor.transfer(amount);\\n        balances[depositor].amountWithdrawn = balances[depositor]\\n            .amountWithdrawn\\n            .add(amount);\\n    }\\n\\n    function withdraw(uint256 amount) public {\\n        require(totalBalance <= 20 * (10**18), \\\"you can only withdraw all\\\");\\n        _withdraw(msg.sender, amount);\\n    }\\n\\n    function withdrawable(address depositor) public view returns (uint256) {\\n        return\\n            balances[depositor].totalAmount.sub(\\n                balances[depositor].amountWithdrawn\\n            );\\n    }\\n\\n    function withdrawn(address depositor) public view returns (uint256) {\\n        return balances[depositor].amountWithdrawn;\\n    }\\n\\n    function withdrawAll() public {\\n        require(\\n            totalBalance != 0 && depositors.length != 0,\\n            \\\"no ETH to withdraw\\\"\\n        );\\n\\n        for (uint8 i = 0; i < depositors.length; i++) {\\n            _withdraw(depositors[i], withdrawable(depositors[i]));\\n        }\\n    }\\n\\n    function fibonacci(uint256 n) public pure returns (uint256) {\\n        if (n <= 1) return n;\\n        uint256 a = 0;\\n        uint256 b = 1;\\n\\n        for (uint256 i = 2; i <= n; i++) {\\n            uint256 c = a.add(b);\\n            a = b;\\n            b = c;\\n        }\\n\\n        return b;\\n    }\\n}\\n\",\"keccak256\":\"0xd54f048dca09da88fe78f2de51bcefadb7b0a210ccd87c92ddf2afdba181fe51\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506107e3806100206000396000f3fe6080604052600436106100865760003560e01c8063853828b611610059578063853828b614610172578063ad7a672f14610187578063ce513b6f1461019c578063d0e30db0146101cf578063e4b2fb79146101d757610086565b806327e235e31461008b5780632e1a7d4d146100d757806361047ff4146101035780636ef610921461013f575b600080fd5b34801561009757600080fd5b506100be600480360360208110156100ae57600080fd5b50356001600160a01b031661021d565b6040805192835260208301919091528051918290030190f35b3480156100e357600080fd5b50610101600480360360208110156100fa57600080fd5b5035610236565b005b34801561010f57600080fd5b5061012d6004803603602081101561012657600080fd5b50356102a3565b60408051918252519081900360200190f35b34801561014b57600080fd5b5061012d6004803603602081101561016257600080fd5b50356001600160a01b03166102e4565b34801561017e57600080fd5b50610101610302565b34801561019357600080fd5b5061012d6103d5565b3480156101a857600080fd5b5061012d600480360360208110156101bf57600080fd5b50356001600160a01b03166103db565b610101610409565b3480156101e357600080fd5b50610201600480360360208110156101fa57600080fd5b503561055a565b604080516001600160a01b039092168252519081900360200190f35b6000602081905290815260409020805460019091015482565b6801158e460913d000006002541115610296576040805162461bcd60e51b815260206004820152601960248201527f796f752063616e206f6e6c7920776974686472617720616c6c00000000000000604482015290519081900360640190fd5b6102a03382610584565b50565b6000600182116102b45750806102df565b6000600160025b8481116102da5760006102ce8484610697565b929350506001016102bb565b509150505b919050565b6001600160a01b031660009081526020819052604090206001015490565b60025415801590610314575060015415155b61035a576040805162461bcd60e51b81526020600482015260126024820152716e6f2045544820746f20776974686472617760701b604482015290519081900360640190fd5b60005b60015460ff821610156102a0576103cd60018260ff168154811061037d57fe5b9060005260206000200160009054906101000a90046001600160a01b03166103c860018460ff16815481106103ae57fe5b6000918252602090912001546001600160a01b03166103db565b610584565b60010161035d565b60025481565b6001600160a01b038116600090815260208190526040812060018101549054610403916106f8565b92915050565b60003411610458576040805162461bcd60e51b8152602060048201526017602482015276616d6f756e742073686f756c646e74206265207a65726f60481b604482015290519081900360640190fd5b336000908152602081905260409020541561049c57336000908152602081905260409020546104879034610697565b33600090815260208190526040902055610548565b60015460c8116104dd5760405162461bcd60e51b81526004018080602001828103825260308152602001806107566030913960400191505060405180910390fd5b604080518082018252348152600060208083018281523380845291839052938220925183559251600192830155815480830183559190527fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf60180546001600160a01b03191690911790555b6002546105559034610697565b600255565b6001818154811061056a57600080fd5b6000918252602090912001546001600160a01b0316905081565b806105d0576040805162461bcd60e51b8152602060048201526017602482015276616d6f756e742073686f756c646e74206265207a65726f60481b604482015290519081900360640190fd5b806105da836103db565b10156106175760405162461bcd60e51b81526004018080602001828103825260288152602001806107866028913960400191505060405180910390fd5b6040516001600160a01b0383169082156108fc029083906000818181858888f1935050505015801561064d573d6000803e3d6000fd5b506001600160a01b0382166000908152602081905260409020600101546106749082610697565b6001600160a01b0390921660009081526020819052604090206001019190915550565b6000828201838110156106f1576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b60008282111561074f576040805162461bcd60e51b815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b5090039056fe6578636565647320746865206d6178696d756d206e756d626572206f6620646966666572656e74206163636f756e747374686520616d6f756e7420657863656564732074686520617661696c61626c652062616c616e6365a26469706673582212200e9992a67fa5fd10d88289ba1a69c664ea489b026c6641dff4bb79c698a4359d64736f6c63430007060033",
+  "deployedBytecode": "0x6080604052600436106100865760003560e01c8063853828b611610059578063853828b614610172578063ad7a672f14610187578063ce513b6f1461019c578063d0e30db0146101cf578063e4b2fb79146101d757610086565b806327e235e31461008b5780632e1a7d4d146100d757806361047ff4146101035780636ef610921461013f575b600080fd5b34801561009757600080fd5b506100be600480360360208110156100ae57600080fd5b50356001600160a01b031661021d565b6040805192835260208301919091528051918290030190f35b3480156100e357600080fd5b50610101600480360360208110156100fa57600080fd5b5035610236565b005b34801561010f57600080fd5b5061012d6004803603602081101561012657600080fd5b50356102a3565b60408051918252519081900360200190f35b34801561014b57600080fd5b5061012d6004803603602081101561016257600080fd5b50356001600160a01b03166102e4565b34801561017e57600080fd5b50610101610302565b34801561019357600080fd5b5061012d6103d5565b3480156101a857600080fd5b5061012d600480360360208110156101bf57600080fd5b50356001600160a01b03166103db565b610101610409565b3480156101e357600080fd5b50610201600480360360208110156101fa57600080fd5b503561055a565b604080516001600160a01b039092168252519081900360200190f35b6000602081905290815260409020805460019091015482565b6801158e460913d000006002541115610296576040805162461bcd60e51b815260206004820152601960248201527f796f752063616e206f6e6c7920776974686472617720616c6c00000000000000604482015290519081900360640190fd5b6102a03382610584565b50565b6000600182116102b45750806102df565b6000600160025b8481116102da5760006102ce8484610697565b929350506001016102bb565b509150505b919050565b6001600160a01b031660009081526020819052604090206001015490565b60025415801590610314575060015415155b61035a576040805162461bcd60e51b81526020600482015260126024820152716e6f2045544820746f20776974686472617760701b604482015290519081900360640190fd5b60005b60015460ff821610156102a0576103cd60018260ff168154811061037d57fe5b9060005260206000200160009054906101000a90046001600160a01b03166103c860018460ff16815481106103ae57fe5b6000918252602090912001546001600160a01b03166103db565b610584565b60010161035d565b60025481565b6001600160a01b038116600090815260208190526040812060018101549054610403916106f8565b92915050565b60003411610458576040805162461bcd60e51b8152602060048201526017602482015276616d6f756e742073686f756c646e74206265207a65726f60481b604482015290519081900360640190fd5b336000908152602081905260409020541561049c57336000908152602081905260409020546104879034610697565b33600090815260208190526040902055610548565b60015460c8116104dd5760405162461bcd60e51b81526004018080602001828103825260308152602001806107566030913960400191505060405180910390fd5b604080518082018252348152600060208083018281523380845291839052938220925183559251600192830155815480830183559190527fb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf60180546001600160a01b03191690911790555b6002546105559034610697565b600255565b6001818154811061056a57600080fd5b6000918252602090912001546001600160a01b0316905081565b806105d0576040805162461bcd60e51b8152602060048201526017602482015276616d6f756e742073686f756c646e74206265207a65726f60481b604482015290519081900360640190fd5b806105da836103db565b10156106175760405162461bcd60e51b81526004018080602001828103825260288152602001806107866028913960400191505060405180910390fd5b6040516001600160a01b0383169082156108fc029083906000818181858888f1935050505015801561064d573d6000803e3d6000fd5b506001600160a01b0382166000908152602081905260409020600101546106749082610697565b6001600160a01b0390921660009081526020819052604090206001019190915550565b6000828201838110156106f1576040805162461bcd60e51b815260206004820152601b60248201527f536166654d6174683a206164646974696f6e206f766572666c6f770000000000604482015290519081900360640190fd5b9392505050565b60008282111561074f576040805162461bcd60e51b815260206004820152601e60248201527f536166654d6174683a207375627472616374696f6e206f766572666c6f770000604482015290519081900360640190fd5b5090039056fe6578636565647320746865206d6178696d756d206e756d626572206f6620646966666572656e74206163636f756e747374686520616d6f756e7420657863656564732074686520617661696c61626c652062616c616e6365a26469706673582212200e9992a67fa5fd10d88289ba1a69c664ea489b026c6641dff4bb79c698a4359d64736f6c63430007060033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 369,
+        "contract": "contracts/EthPool_Fibonacci.sol:EthPool_Fibonacci",
+        "label": "balances",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_struct(UserBalance)365_storage)"
+      },
+      {
+        "astId": 372,
+        "contract": "contracts/EthPool_Fibonacci.sol:EthPool_Fibonacci",
+        "label": "depositors",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_array(t_address_payable)dyn_storage"
+      },
+      {
+        "astId": 374,
+        "contract": "contracts/EthPool_Fibonacci.sol:EthPool_Fibonacci",
+        "label": "totalBalance",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_address_payable": {
+        "encoding": "inplace",
+        "label": "address payable",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_address_payable)dyn_storage": {
+        "base": "t_address_payable",
+        "encoding": "dynamic_array",
+        "label": "address payable[]",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_struct(UserBalance)365_storage)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => struct EthPool_Fibonacci.UserBalance)",
+        "numberOfBytes": "32",
+        "value": "t_struct(UserBalance)365_storage"
+      },
+      "t_struct(UserBalance)365_storage": {
+        "encoding": "inplace",
+        "label": "struct EthPool_Fibonacci.UserBalance",
+        "members": [
+          {
+            "astId": 362,
+            "contract": "contracts/EthPool_Fibonacci.sol:EthPool_Fibonacci",
+            "label": "totalAmount",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 364,
+            "contract": "contracts/EthPool_Fibonacci.sol:EthPool_Fibonacci",
+            "label": "amountWithdrawn",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256"
+          }
+        ],
+        "numberOfBytes": "64"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
